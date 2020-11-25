@@ -27,7 +27,8 @@ namespace SampleApp
             //var opResult = JsonConvert.DeserializeObject<POSITION>(val);
 
             string json = JsonConvert.SerializeXmlNode(doc);
-             var   allStudents = JsonConvert.DeserializeObject<List<VesselTrack>>(json.ToString());
+             var   allData= JsonConvert.DeserializeObject<List<VesselTrack>>(json.ToString());
+
 
 
 
